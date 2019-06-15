@@ -1,0 +1,5 @@
+{
+  "appName": "App Name",
+  "hello": "Hello $name",
+  "title": "My Title"
+}
