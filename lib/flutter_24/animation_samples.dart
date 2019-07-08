@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'icon_samples.dart';
+import 'package:flutter_samples/flutter_10/icon_samples.dart';
 
 var icons = [
   AnimatedIcons.add_event,

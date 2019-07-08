@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_samples/samples/globalPagesLocalizations.dart';
+import 'globalPagesLocalizations.dart';
 import 'pageLocalizations.dart';
 class LocalizationsSamples extends StatefulWidget {
   @override

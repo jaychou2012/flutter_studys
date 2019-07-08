@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/samples/button_samples.dart';
+
+import 'button_samples.dart';
 
 class RouteSamples extends StatefulWidget {
   @override

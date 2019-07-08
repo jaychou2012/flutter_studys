@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_samples/samples/note_db_helpter.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 import 'Note.dart';
+import 'note_db_helpter.dart';
 
 class SQLiteSamples extends StatefulWidget {
   @override

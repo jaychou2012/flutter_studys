@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/samples/button_samples.dart';
-import 'package:flutter_samples/samples/route_samples.dart';
+import 'package:flutter_samples/flutter_08/button_samples.dart';
+import 'package:flutter_samples/flutter_17/route_samples.dart';
 
-import 'samples/hero_samples.dart';
-import 'samples/staggeranimation_samples.dart';
+import 'hero_samples.dart';
+import 'staggeranimation_samples.dart';
 
 void main() {
   return runApp(ShowApp());

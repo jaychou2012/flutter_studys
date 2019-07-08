@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_samples/samples/pageLocalizations.dart';
+
+import 'pageLocalizations.dart';
 
 class GlobalPagesLocalizations
     extends LocalizationsDelegate<PageLocalizations> {

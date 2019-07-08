@@ -23,14 +23,30 @@ class FileSamplesState extends State<FileSamples> {
         body: Text("文件操作"));
   }
 
-  Directory tempDir = await getTemporaryDirectory();
-  String tempPath = tempDir.path;
+  // 相当于Android的getCacheDir和IOS的NSCachesDirectory
+  String getCacheDir() {
+    Future<Directory> tempDir = getTemporaryDirectory();
+    tempDir.then((Directory directory) {
+      return directory.path;
+    });
+  }
 
-  Directory appDocDir = await getApplicationDocumentsDirectory();
-  String appDocPath = appDocDir.path;
+  // 相当于Android的getDataDirectory和IOS的NSDocumentDirectory
+  String getAppDocDir() {
+    Future<Directory> appDocDir = getApplicationDocumentsDirectory();
+    appDocDir.then((Directory directory) {
+      return directory.path;
+    });
+  }
 
-  Directory appExternalDir = await getExternalStorageDirectory();
-  String appExternalPath = appExternalDir.path;
+  // 相当于Android的getExternalStorageDirectory
+  String getAppExternalDir() {
+    Future<Directory> appExternalDir = getExternalStorageDirectory();
+    appExternalDir.then((Directory directory) {
+      return directory.path;
+    });
+  }
+  
 }
 
 /// 创建文件夹

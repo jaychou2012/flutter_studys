@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_samples/samples/loadingdialog.dart';
-import 'package:flutter_samples/samples/toolbar.dart';
-import 'package:flutter_samples/samples/utils.dart';
+
+import 'utils.dart';
 
 class CustomWidgetSamples extends StatefulWidget {
   @override

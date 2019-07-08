@@ -1,6 +1,7 @@
 // 仿照Instagram列表页
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/samples/practice_one_login.dart';
+
+import 'practice_one_login.dart';
 
 class PracticeOneSamples extends StatefulWidget {
   @override

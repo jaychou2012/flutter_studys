@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_samples/samples/LoadingDialog.dart';
+import 'package:flutter_samples/flutter_10/LoadingDialog.dart';
 
 enum Option { A, B, C }
 enum Location { Barbados, Bahamas, Bermuda }
