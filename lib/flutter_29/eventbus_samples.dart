@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_samples/samples/event_bus.dart';
 
+import 'event_bus.dart';
 import 'eventbus_detail_samples.dart';
 
 class EventBusSamples extends StatefulWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:flutter_samples/samples/redux_detail_samples.dart';
 
 import 'redux_app.dart';
+import 'redux_detail_samples.dart';
 
 class ReduxSamples extends StatefulWidget {
   @override
