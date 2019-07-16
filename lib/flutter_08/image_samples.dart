@@ -34,9 +34,10 @@ class ImageSamplesState extends State<ImageSamples> {
     Image.asset("assets/flutter-mark-square-64.png")
         .image
         .resolve(createLocalImageConfiguration(context))
-        .addListener((ImageInfo image, bool synchronousCall) {
-      imageInfo = image;
-    });
+        .addListener(
+            ImageStreamListener((ImageInfo image, bool synchronousCall) {
+          imageInfo = image;
+        }, onError: (dynamic exception, StackTrace stackTrace) {}));
   }
 
   @override
